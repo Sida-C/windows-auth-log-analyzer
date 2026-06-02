@@ -24,6 +24,3 @@ temp/
 
 # Real generated reports
 output/*.json
-
-# Keep sanitized sample reports if needed
-!output/sample-auth-summary.json
