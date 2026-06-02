@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# JetBrains / WebStorm
+.idea/
+
+# Environment / secrets
+.env
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary files
+tmp/
+temp/
+
+# Real generated reports
+output/*.json
+
+# Keep sanitized sample reports if needed
+!output/sample-auth-summary.json
